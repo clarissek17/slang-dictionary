@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+    <html lang="en">
+
+    <!-- TO ADD
+    - NSFW terms filter 
+    - CSS formatting
+    - enter button to search
+    - examples
+    -->
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+        <title>Gen Z + Gen A Slang Dictionary</title>
+    
+        <style>
+
+        </style> 
+    
+    </head>
+  
+    <body>
+
+        <div>Gen Z + Gen A Slang Dictionary</div>
+        <div>A dictionary of popular Gen Zee and Gen Alpha terminology, dedicated to the adults in my life</div>
+        <label for="filterBox">Hide adult terms and definitions</label>
+        <input id="filterBox" type="checkbox" value="yes" checked onclick="filter()">
+
+        <input id="searchBar" type="text" placeholder="Search here...">
+        <button id="searchBtn" onclick="search()">🔍</button>
+
+        <div id="results"></div>
+
+        <div>More by me:<br>Personal Recipe Collection Github Itch.io</div>
+
+    </body>
+
+    <script>
+
+        let terms = [{
+                term: "Aesthetic",
+                pronounce: "ah ss thett ick",
+                define: ["1. <em> noun </em> Imagery evoking the idea of something, usually an atmosphere, way of life, or person", "2. <em> adj </em> Beautiful because it evokes the idea of an atmosphere or way of life"],
+                example: [""],
+                match: 0,
+                derog: false
+            },{
+                term: "Air",
+                pronounce: "air",
+                define: ["1. <em> verb </em> To purposefully ignore someone's message"],
+                example: [""],
+                match: 0,
+                derog: false
+            },{
+                term: "Ate",
+                pronounce: "ate",
+                define: ["1. <em> verb, strictly past tense </em> To do exceptionally well"],
+                example: [""],
+                match: 0,
+                derog: false
+            },{
+                term: "*Ass",
+                pronounce: "ah ss",
+                define: ["1. <em> adj </em> of bad quality", "2. <em> adj </em> Quite NOTE: this amplifies paired adjectives", "3. <em> noun </em> Someone's self  NOTE: this employs synecdoche to describe the entire possessor of the buttocks"],
+                example: [""],
+                match: 0,
+                derog: true
+            },{
+                term: "Aura",
+                pronounce: "or ah",
+                define: ["1. <em> noun </em> Coolness"],
+                example: [""],
+                match: 0,
+                derog: false
+            },{
+                term: "Aura Farm",
+                pronounce: "or ah farm",
+                define: ["1. <em> verb </em> To engage in a performative behaviour to look cool"],
+                example: [""],
+                match: 0,
+                derog: false
+            },{
+                term: "Aura points",
+                pronounce: "or ah points",
+                define: ["1. <em> noun </em> units of arbitrary system of measurement for one's coolness that are lost or gained"],
+                example: [""],
+                match: 0,
+                derog: false
+            },{
+                term: "*Bad",
+                pronounce: "bad",
+                define: ["1. <em> adj </em> Sexually attractive"],
+                example: [""],
+                match: 0,
+                derog: true
+            },{
+                term: "Baddie",
+                pronounce: "bad ee",
+                define: ["*1. <em> noun </em> One who is sexually attractive", "2. <em> noun </em> One who is confident and well looked upon"],
+                example: [""],
+                match: 0,
+                derog: false
+            }] // end of terms
+
+        window.onload = function() {
+            search();
+        }
+
+
+        // detect searched word
+        function search(){
+
+            // variable declarations
+            let term = document.getElementById('searchBar').value
+            let results = document.getElementById('results')
+            let filter = document.getElementById('filterBox').value
+
+
+            // term to array
+            let letters = term.split('')
+
+            // clear results
+            results.innerHTML = ""
+
+            // rank each word in the terms array
+            letters.forEach(letter => {
+                console.log(letter)
+
+                terms.forEach(word => {
+
+                    console.log(word.term)
+                    if(word.term.includes(letter)){
+                        
+                        word.match = word.match + 1
+                        console.log(word.term + word.match)
+
+                    } // if
+
+                }) // terms forEach
+
+            }) // letters forEach
+
+            // sort based on match
+            terms.sort((a, b) => b.match - a.match)
+            console.log(terms)
+
+            // output
+
+            terms.forEach(word => {
+                let megaString = ""
+                let wordDiv = document.createElement("div")
+
+                if(word.derog == false || filter == "no"){
+                    megaString += word.term + "   <em>" + word.pronounce + "</em><br>"
+
+                    word.define.forEach(thing => {
+
+                        if(filter == "no" || !thing.includes("*")){
+                            megaString += thing + "<br>"
+                        }
+
+                    })
+
+                    wordDiv.innerHTML = megaString
+                    results.appendChild(wordDiv)
+
+                } // if
+
+            }) // terms forEach word output
+
+        } // search()
+
+        function filter(){
+            let filter = document.getElementById('filterBox')
+
+            if(filter.value == "no"){
+                filter.value = "yes"
+            } else if (filter.value == "yes"){
+                filter.value = "no"
+            }
+
+            console.log(filter.value)
+        } // filter()
+
+    
+    </script>
+  
+</html>
