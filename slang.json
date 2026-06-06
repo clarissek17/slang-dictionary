@@ -534,6 +534,18 @@
         "derog": false
     },
     {
+        "term": "Candid",
+        "pronounce": "kan did",
+        "define": [
+            "1. <span class='thingy'> adj </span> a photo that is or looks natural and unplanned, usually with the subject posing to seem unaware of the photo being taken"
+        ],
+        "example": [
+            ""
+        ],
+        "match": 0,
+        "derog": false
+    },
+    {
         "term": "Canon event",
         "pronounce": "kan un ee-vent",
         "define": [
@@ -798,6 +810,20 @@
         "derog": false
     },
     {
+        "term": "Crine",
+        "pronounce": "crine",
+        "define": [
+            "1. <span class='thingy'> adj </span> \"laughing\"",
+            "1. <span class='thingy'> adj </span> \"lightly disappointed and astonished\""
+
+        ],
+        "example": [
+            ""
+        ],
+        "match": 0,
+        "derog": false
+    },
+    {
         "term": "Crusty",
         "pronounce": "kruss tee",
         "define": [
@@ -845,6 +871,18 @@
         ],
         "match": 0,
         "derog": false
+    },
+    {
+        "term": "Dafuq",
+        "pronounce": "dah fuk",
+        "define": [
+            "1. <span class='thingy'> phrase </span> \"What the fuck?\" (stated inquisitively)"
+        ],
+        "example": [
+            ""
+        ],
+        "match": 0,
+        "derog": true
     },
     {
         "term": "Dap up",
@@ -912,6 +950,18 @@
         "pronounce": "deets",
         "define": [
             "1. <span class='thingy'> noun </span> details"
+        ],
+        "example": [
+            ""
+        ],
+        "match": 0,
+        "derog": false
+    },
+    {
+        "term": "Despawn",
+        "pronounce": "dee spawn",
+        "define": [
+            "1. <span class='thingy'> noun </span> to suddenly disappear from view or from existence"
         ],
         "example": [
             ""
@@ -1100,6 +1150,18 @@
         "define": [
             "1. <span class='thingy'> noun </span> the sensation one gives off or another's intuitive feeling about someone",
             "2. <span class='thingy'> noun </span> concepts that one evokes based on their attitudes and behaviours"
+        ],
+        "example": [
+            ""
+        ],
+        "match": 0,
+        "derog": false
+    },
+    {
+        "term": "Era",
+        "pronounce": "era",
+        "define": [
+            "1. <span class='thingy'> noun </span> a period where one embraces a specific lifestyle"
         ],
         "example": [
             ""
@@ -1477,6 +1539,32 @@
         "derog": false
     },
     {
+        "term": "Gaslight",
+        "pronounce": "gass lite",
+        "define": [
+            "1. <span class='thingy'> verb </span> to lie to someone, usually about something they experienced or have knowledge of"
+        ],
+        "example": [
+            ""
+        ],
+        "match": 0,
+        "derog: false": false,
+        "derog": false
+    },
+    {
+        "term": "Gatekeep",
+        "pronounce": "gate keep",
+        "define": [
+            "1. <span class='thingy'> verb </span> to hide knowledge of something from others so they will not have access to it"
+        ],
+        "example": [
+            ""
+        ],
+        "match": 0,
+        "derog: false": false,
+        "derog": false
+    },
+    {
         "term": "Get jiggy with it",
         "pronounce": "get jig ee with it",
         "define": [
@@ -1511,6 +1599,32 @@
             ""
         ],
         "match": 0,
+        "derog": false
+    },
+    {
+        "term": "Gigachad",
+        "pronounce": "gih gah chad",
+        "define": [
+            "1. <span class='thingy'> noun </span> an extremely well looked upon person for their qualities"
+        ],
+        "example": [
+            ""
+        ],
+        "match": 0,
+        "derog": false
+    },
+    {
+        "term": "Girlboss",
+        "pronounce": "girl boss",
+        "define": [
+            "1. <span class='thingy'> adj </span> an independent and resolute woman",
+            "1. <span class='thingy'> verb </span> to be an indepedent and resolute woman in a situation"
+        ],
+        "example": [
+            ""
+        ],
+        "match": 0,
+        "derog: false": false,
         "derog": false
     },
     {
@@ -1689,7 +1803,8 @@
         "pronounce": "goon",
         "define": [
             "1. <span class='thingy'> verb </span> to masterbate, especially to video content such as anime",
-            "2. <span class='thingy'> verb </span> to live a decrepit lifestyle mostly online and without romantic interaction"
+            "2. <span class='thingy'> verb </span> to masterbate for an extended period of time, often verging repeatedly on climax",
+            "3. <span class='thingy'> verb </span> to live a decrepit lifestyle mostly online and without romantic interaction"
         ],
         "example": [
             ""
@@ -1875,6 +1990,20 @@
         "define": [
             "1. <span class='thingy'> noun </span> a friend",
             "2. <span class='thingy'> pronoun </span> a direct address to a person"
+        ],
+        "example": [
+            ""
+        ],
+        "match": 0,
+        "derog: false": false,
+        "derog": false
+    },
+    {
+        "term": "Homiesexual",
+        "pronounce": "hoh mee sexual",
+        "define": [
+            "1. <span class='thingy'> adj </span> acting sexual and/or romantic towards friends of the same gender",
+            "2. <span class='thingy'> pronoun </span> someone who acts sexual and/or romantic towards friends of the same gender"
         ],
         "example": [
             ""
@@ -2090,7 +2219,7 @@
         "term": "Jack",
         "pronounce": "jak",
         "define": [
-            "1. <span class='thingy'> verb </span> do digital sex/masturbation"
+            "1. <span class='thingy'> verb </span> engage in digital sex/masturbation"
         ],
         "example": [
             ""
@@ -2198,6 +2327,19 @@
         "pronounce": "left noh krumz",
         "define": [
             "1. <span class='thingy'> phrase </span> \"did exceptionally well\""
+        ],
+        "example": [
+            ""
+        ],
+        "match": 0,
+        "derog: false": false,
+        "derog": false
+    },
+    {
+        "term": "Let him cook",
+        "pronounce": "let him cook",
+        "define": [
+            "1. <span class='thingy'> phrase </span> \"briefly allow this person to keep going with their idea\""
         ],
         "example": [
             ""
@@ -2323,6 +2465,19 @@
             "3. <span class='thingy'> affirm </span> a brief interaction to confirm one has heard the previous message",
             "4. <span class='thingy'> tone ind </span> indicates lightheartedness",
             "5. <span class='thingy'> exclamation</span> indicates amusement, especially if repeated"
+        ],
+        "example": [
+            ""
+        ],
+        "match": 0,
+        "derog: false": false,
+        "derog": false
+    },
+    {
+        "term": "Looksmaxx",
+        "pronounce": "looks max",
+        "define": [
+            "1. <span class='thingy'> verb </span> to put extensive effort into appearing attractive"
         ],
         "example": [
             ""
@@ -2812,6 +2967,19 @@
         "derog": false
     },
     {
+        "term": "Pmo",
+        "pronounce": "pee em oh",
+        "define": [
+            "1. <span class='thingy'> acronym </span> \"Pisses me off\""
+        ],
+        "example": [
+            ""
+        ],
+        "match": 0,
+        "derog: false": false,
+        "derog": false
+    },
+    {
         "term": "Pog",
         "pronounce": "pog",
         "define": [
@@ -3151,6 +3319,20 @@
         "derog": false
     },
     {
+        "term": "Short king",
+        "pronounce": "short",
+        "define": [
+            "1. <span class='thingy'> noun </span> a man who is short but has attractive qualities",
+            "2. <span class='thingy'> noun </span> a man who is shorter than his female significant other"
+        ],
+        "example": [
+            ""
+        ],
+        "match": 0,
+        "derog: false": false,
+        "derog": false
+    },
+    {
         "term": "Sidequest",
         "pronounce": "syd kwest",
         "define": [
@@ -3239,6 +3421,21 @@
             "1. <span class='thingy'> noun </span> a creature possessing a head and long neck that haunts toilets",
             "2. <span class='thingy'> adj </span> nice or neat",
             "3. <span class='thingy'> exclamation</span> a term used meaninglessly, meant to annoy"
+        ],
+        "example": [
+            ""
+        ],
+        "match": 0,
+        "derog: false": false,
+        "derog": false
+    },
+    {
+        "term": "Skill issue",
+        "pronounce": "skill issue",
+        "define": [
+            "1. <span class='thingy'> noun </span> a problem to someone because they lack strong abilities",
+            "2. <span class='thingy'> phrase </span> \"a problem for you that I don't care about\"",
+            "3. <span class='thingy'> noun </span> a problem caused by something out of one's control"
         ],
         "example": [
             ""
@@ -3386,7 +3583,20 @@
         "derog": false
     },
     {
-        "term": "softlaunch",
+        "term": "Softboy",
+        "pronounce": "soft boy",
+        "define": [
+            "1. <span class='thingy'> noun </span> a man who is sensitive and demonstrates emotional vulnerability"
+        ],
+        "example": [
+            ""
+        ],
+        "match": 0,
+        "derog: false": false,
+        "derog": false
+    },
+    {
+        "term": "Softlaunch",
         "pronounce": "soft lawnch",
         "define": [
             "1. <span class='thingy'> verb </span> leave a clue about one's new romantic relationship on social media without directing announcing it or identifying the partner",
@@ -3397,6 +3607,18 @@
         ],
         "match": 0,
         "derog: false": false,
+        "derog": false
+    },
+    {
+        "term": "Son",
+        "pronounce": "sun",
+        "define": [
+            "1. <span class='thingy'> pronoun </span> a direct address to a person",
+            "2. <span class='thingy'> exclamation </span> indicates disbelief and disappointed shock"        ],
+        "example": [
+            ""
+        ],
+        "match": 0,
         "derog": false
     },
     {
@@ -3636,6 +3858,19 @@
         "derog": false
     },
     {
+        "term": "Tmi",
+        "pronounce": "t em eye",
+        "define": [
+            "1. <span class='thingy'> acronym </span> \"too much information\", implying someone is oversharing about something personal"
+        ],
+        "example": [
+            ""
+        ],
+        "match": 0,
+        "derog: false": false,
+        "derog": false
+    },
+    {
         "term": "Token",
         "pronounce": "toh ken",
         "define": [
@@ -3649,7 +3884,7 @@
         "derog": false
     },
     {
-        "term": "Touch [someone]",
+        "term": "Touch",
         "pronounce": "tuch sum wun",
         "define": [
             "1. <span class='thingy'> phrase </span> a joking empty threat stating one will molest or have sex with another",
@@ -3731,6 +3966,19 @@
         "match": 0,
         "derog: false": false,
         "derog": false
+    },
+    {
+        "term": "Ts",
+        "pronounce": "tee ess",
+        "define": [
+            "1. <span class='thingy'> acronym </span> \"This shit\""
+        ],
+        "example": [
+            ""
+        ],
+        "match": 0,
+        "derog: false": false,
+        "derog": true
     },
     {
         "term": "Ttyl",
@@ -3841,6 +4089,18 @@
         "derog": true
     },
     {
+        "term": "Ug",
+        "pronounce": "uh g",
+        "define": [
+            "1. <span class='thingy'> adj </span> ugly"
+        ],
+        "example": [
+            ""
+        ],
+        "match": 0,
+        "derog": true
+    },
+    {
         "term": "Unalive",
         "pronounce": "un-ah-lyv",
         "define": [
@@ -3867,6 +4127,19 @@
         "derog": false
     },
     {
+        "term": "Uncanny",
+        "pronounce": "un can ee",
+        "define": [
+            "1. <span class='thingy'> adj </span> unsettling"
+        ],
+        "example": [
+            ""
+        ],
+        "match": 0,
+        "derog: false": false,
+        "derog": false
+    },
+    {
         "term": "Ussy",
         "pronounce": "uss ee",
         "define": [
@@ -3880,7 +4153,7 @@
     },
     {
         "term": "Vaguepost",
-        "pronounce": "vayg pohst",
+        "pronounce": "vague post",
         "define": [
             "1. <span class='thingy'> verb </span> to be vague",
             "2. <span class='thingy'> verb </span> to say something vague in order to get attention, especially online",
@@ -3892,6 +4165,30 @@
         "match": 0,
         "derog: false": false,
         "derog": false
+    },
+    {
+        "term": "Valid",
+        "pronounce": "vah lid",
+        "define": [
+            "1. <span class='thingy'> adj </span> understandable and approved of"
+        ],
+        "example": [
+            ""
+        ],
+        "match": 0,
+        "derog": true
+    },
+    {
+        "term": "Vertically Challenged",
+        "pronounce": "vertically challenged",
+        "define": [
+            "1. <span class='thingy'> adj </span> short"
+        ],
+        "example": [
+            ""
+        ],
+        "match": 0,
+        "derog": true
     },
     {
         "term": "vibe",
@@ -3952,10 +4249,36 @@
         "derog": false
     },
     {
+        "term": "We are so back",
+        "pronounce": "we are so back",
+        "define": [
+            "1. <span class='thingy'> phrase </span> indicates one's return or recovery"
+        ],
+        "example": [
+            ""
+        ],
+        "match": 0,
+        "derog: false": false,
+        "derog": false
+    },
+    {
         "term": "Welp",
         "pronounce": "welp",
         "define": [
-            "1. <span class='thingy'> exclamation</span> indicates something is mildly unideal, but not significant enough to acknowledge"
+            "1. <span class='thingy'> exclamation </span> indicates something is mildly unideal, but not significant enough to acknowledge"
+        ],
+        "example": [
+            ""
+        ],
+        "match": 0,
+        "derog: false": false,
+        "derog": false
+    },
+    {
+        "term": "We up",
+        "pronounce": "we up",
+        "define": [
+            "1. <span class='thingy'> phrase </span> indicates things are going well for a oneself or a group"
         ],
         "example": [
             ""
@@ -4167,9 +4490,23 @@
         "term": "Yo",
         "pronounce": "yoh",
         "define": [
-            "1. <span class='thingy'> greet </span> \"Hey\"",
+            "1. <span class='thingy'> greeting </span> \"Hey\"",
             "2. <span class='thingy'> exclamation</span> indicates excitement",
             "3. <span class='thingy'> exclamation</span> indicates shock, often in an accusatory way"
+        ],
+        "example": [
+            ""
+        ],
+        "match": 0,
+        "derog: false": false,
+        "derog": false
+    },
+    {
+        "term": "Your Honor",
+        "pronounce": "yor honor",
+        "define": [
+            "1. <span class='thingy'> pronoun </span> an apostrophic address to an imagined observing party, to explain one's innocence",
+            "2. <span class='thingy'> noun </span> an often ironic, direct address to a person acting as a moderator or prosecutor"
         ],
         "example": [
             ""
